@@ -1,5 +1,5 @@
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Antropólogo', 'Produtor Cultural', 'Artista Multimídia'], 'text',['#ffe76a','#6bf9ff', '#b4f988']);
+consoleText(['Antropólogo', 'Produtor', 'Artista'], 'text',['#ffe76a','#6bf9ff', '#b4f988']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
