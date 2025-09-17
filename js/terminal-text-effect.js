@@ -1,5 +1,5 @@
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Antropólogo Indisciplinar', 'Artista Multimídia', 'Produtor'], 'text',['#ffe76a','#6bf9ff', '#b4f988']);
+consoleText(['Antropólogo', 'Artista Multimídia', 'Produtor'], 'text',['#ffe76a','#6bf9ff', '#b4f988']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -38,4 +38,5 @@ function consoleText(words, id, colors) {
     }
   }, 120) //writing speed
 }
+
 
